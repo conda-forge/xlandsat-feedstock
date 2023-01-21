@@ -1,5 +1,5 @@
 {% set name = "xlandsat" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xlandsat-{{ version }}.tar.gz
-  sha256: fab7e2c42cb9f85feafaf5e41dbcf7b66bb7079618dec2b6b9e9eb2fc6d3d92e
+  sha256: cbadcf04241dcab19ea3ba5d88fcf83e4dc174e4ed8a56886ae717c77470a8aa
 
 build:
   noarch: python
