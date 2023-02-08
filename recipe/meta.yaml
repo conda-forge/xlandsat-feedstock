@@ -1,5 +1,5 @@
 {% set name = "xlandsat" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xlandsat-{{ version }}.tar.gz
-  sha256: cbadcf04241dcab19ea3ba5d88fcf83e4dc174e4ed8a56886ae717c77470a8aa
+  sha256: e51eaae22fb43498516ff47337114090e41b78723177cdc1622e1523d2aa54bb
 
 build:
   noarch: python
@@ -26,6 +26,7 @@ requirements:
     - numpy >=1.19
     - xarray >=0.16
     - scikit-image >=0.18
+    - pooch >=1.3.0
 
 test:
   imports:
