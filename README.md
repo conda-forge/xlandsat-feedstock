@@ -1,11 +1,11 @@
-About xlandsat
-==============
+About xlandsat-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xlandsat-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/compgeolab/xlandsat
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xlandsat-feedstock/blob/main/LICENSE.txt)
 
 Summary: Load Landsat remote sensing images into xarray
 
